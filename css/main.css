@@ -1,0 +1,437 @@
+@font-face {
+	font-family: 'Geometria';
+	src: url('Geometria.eot');
+	src: local('Geometria'),
+		url('Gfonts/Geometria.woff') format('woff'),
+		url('fonts/Geometria.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('Geometria-Bold.eot');
+	src: local('Geometria Bold'), local('Geometria-Bold'),
+		url('fonts/Geometria-Bold.woff') format('woff'),
+		url('fonts/Geometria-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Bold.eot');
+    src: local('Futura PT Bold'), local('FuturaPT-Bold'),
+        url('fonts/FuturaPT-Bold.woff') format('woff'),
+        url('fonts/FuturaPT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.bg-contaner {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+}
+
+.top-container {
+    color: #000;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #000;
+}
+
+.main {
+    min-width: 1281px;
+    max-width: 1440px;
+    width: 100%;
+    font-family: 'Geometria';
+    color: #000;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+    height: 49px;
+    min-width: 1281px;
+    max-width: 1440px;
+    width: 100%;
+    font-family: 'Geometria';
+    color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+}
+
+.counter {
+    width: 200px;
+    background-color: #333366;
+    display: flex;
+    margin: 0;
+}
+
+.counter__numbers {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Geometria';
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px 10px 18px;
+    margin: 0;
+}
+
+.counter__text {
+    width: 100px;
+    font-family: 'Geometria-Bold';
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.mini-banner {
+    width: 200px;
+    position: relative;
+    align-self: flex-start;
+}
+
+.mini-banner__text {
+    width: 85px;
+    position: absolute;
+    top: 13px;
+    left: 90px;
+    font-family: 'Geometria';
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 12px;
+    margin: 0;
+}
+
+.mode {
+    width: 450px;
+    font-family: 'Geometria';
+    font-size: 17px;
+    color: #666666;
+    text-align: end;
+    /*align-self: flex-end;*/
+    padding: 19px 0;
+}
+
+.phone {
+    font-family: 'Geometria';
+    font-size: 18px;
+    padding: 16px 0 16px 11px;
+    letter-spacing: .8px;
+}
+
+.account {
+    padding: 16px 0 16px 25px;
+}
+
+.account__link {
+    font-family: 'Geometria';
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none; 
+    border-bottom: 1px dashed #fff;
+}
+
+.bonuses {
+    display: flex;
+    width: 150px;
+    color: #ff9900;
+    padding: 17px 0 17px 10px;
+    margin: 0;
+}
+
+.bonuses__numbers {
+    font-family: 'Geometria-Bold';
+    font-size: 16px;
+    margin: 0;
+}
+
+.bonuses__text {
+    font-family: 'Geometria-Bold';
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 7px;
+}
+
+.menu {
+    display: flex;
+    justify-content: baseline;
+    height: 100px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.logo {
+    padding: 20px 0;
+    width: 200px;
+    height: 62px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 120px;
+}
+
+.menu__list_element {
+    padding: 25px 20px;
+    text-decoration: none;
+    font-family: 'Geometria';
+    font-weight: bold;
+    color: #0099ff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.menu__list_link {
+    justify-content: center;
+    text-decoration: none;
+    color: #0099ff;
+    font-family: 'Geometria';
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.search {
+    padding: 35px 20px 35px 190px;
+    width: 28px;
+    height: 28px;
+    margin: 0;
+}
+
+.favorites {
+    padding: 35px 15px;
+    width: 27px;
+    height: 27px;
+    margin: 0;
+}
+
+.basket {
+    padding: 35px 20px;
+    width: 35px;
+    height: 35px;
+    margin: 0;
+}
+
+.catalog {
+    display: flex;
+    height: 70px;
+}
+
+.catalog__img {
+    width: 20px;
+    height: 20px;
+    padding-top: 19px;
+}
+
+.catalog__list {
+    width: 1330px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.catalog__list_link {
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Futura PT';
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sale {
+    color: #ff3399;
+}
+
+.banners {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    width: 1184px;
+    max-height: 596px;
+    margin: 0;
+}
+
+.banners__link:hover {
+    opacity: .7;
+}
+
+.banners__big-banner {
+    width: 940px;
+    height: 360px;
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+.banners__big-banner_brand {
+    position: absolute;
+    top: 140px;
+    left: 80px;
+  }
+
+.banners__banner2 {
+    position: relative;
+    width: 420px;
+    height: 170px;
+
+  }
+
+.banners__banner3 {
+    position: relative;
+    width: 420px;
+    height: 170px;
+    
+}
+
+.banners__text {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    color: #fff;
+    font-family: 'Geometria';
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 260px;
+    letter-spacing: 1.5px;
+
+}
+
+.banners__button {
+    padding: 4px 15px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: #fff;
+    font-size: 13px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.questions {
+    display: flex;
+    position: fixed;
+    top: 330px;
+    right: -100px;
+    z-index: 1;
+    background-image: -moz-linear-gradient( 100deg, rgb(0,156,255) 0%, rgb(0,255,174) 100%);
+    background-image: -webkit-linear-gradient( 100deg, rgb(0,156,255) 0%, rgb(0,255,174) 100%);
+    background-image: -ms-linear-gradient( 100deg, rgb(0,156,255) 0%, rgb(0,255,174) 100%);
+    width: 260px;
+    height: 50px;
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    -webkit-transform:rotate(-90deg);
+    border-radius: 10px 10px 0 0;
+}
+
+.questions__img {
+    width: 22px;
+    height: 22px;
+    padding: 18px;
+}
+
+.section-title {
+    width: 600px;
+    margin: 60px auto 0 auto;
+    font-family: 'Futura PT';
+    font-weight: bold;
+    font-size: 53px;
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    width: 1380px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 50px;
+}
+
+.products__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.products__card_img {
+    margin: 0;
+}
+
+.products__card_price {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Futura PT';
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.products__card_button {
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #0099ff;
+    align-self: center;
+}
+
+.products__card_button-name {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #cccccc;
+}
+
+.brands__container {
+    width: 1380px;
+    margin: 50px auto 30px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.brands_button {
+    color: #0099ff;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Futura PT';
+    font-weight: bold;
+    text-align: center;
+}
+
+.brands__wolf-brand {
+    width: 150px;
+    height: 20px;
+}
+
+.brands__carrera-brand {
+    width: 160px;
+    height: 45px;
+}
