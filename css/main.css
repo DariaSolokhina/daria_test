@@ -2,8 +2,8 @@
 	font-family: 'Geometria';
 	src: url('Geometria.eot');
 	src: local('Geometria'),
-		url('fonts/Geometria.woff') format('woff'),
-		url('fonts/Geometria.ttf') format('truetype');
+		url('../fonts/Geometria.woff') format('woff'),
+		url('../fonts/Geometria.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -12,8 +12,8 @@
 	font-family: 'Geometria';
 	src: url('Geometria-Bold.eot');
 	src: local('Geometria Bold'), local('Geometria-Bold'),
-		url('fonts/Geometria-Bold.woff') format('woff'),
-		url('fonts/Geometria-Bold.ttf') format('truetype');
+		url('../fonts/Geometria-Bold.woff') format('woff'),
+		url('../fonts/Geometria-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -22,8 +22,8 @@
     font-family: 'Futura PT';
     src: url('FuturaPT-Bold.eot');
     src: local('Futura PT Bold'), local('FuturaPT-Bold'),
-        url('fonts/FuturaPT-Bold.woff') format('woff'),
-        url('fonts/FuturaPT-Bold.ttf') format('truetype');
+        url('../fonts/FuturaPT-Bold.woff') format('woff'),
+        url('../fonts/FuturaPT-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
